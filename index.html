@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Shape Game</title>
+</head>
+<body>
+<div id="stats-container" style="position: absolute; top: 3rem; left: 8; display: flex; font-family: Arial, sans-serif;">
+  <p id="shapeCount" class="stats" style="background: grey; border: 1px solid black; padding: 10px; margin: 0;">
+    Number of current shapes: 0
+  </p>
+  <p id="totalArea" class="stats" style="background: grey; border: 1px solid black; padding: 10px; margin: 0">
+    Surface area occupied by shapes: 0 px²
+  </p>
+</div>
+<canvas id="gameCanvas" width="800" height="600" style="margin-top: 5rem; border:3px solid #000;"></canvas>
+<div class="controls">
+    <button id="decreaseShapeRate">- Shape Rate</button>
+      <span id="currentRate">1 shape/s</span>
+    <button id="increaseShapeRate">+ Shape Rate</button>
+    <br>
+    <button id="decreaseGravity">- Gravity</button>
+    <span id="currentGravity">Gravity: 0.001</span>
+    <button id="increaseGravity">+ Gravity</button>
+</div>
+    <script src="game.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stats-container">
+      <p id="shapeCount" class="stats">Number of current shapes: 0</p>
+      <p id="totalArea" class="stats">Surface area occupied by shapes: 0 px²</p>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div class="controls">
+        <button id="decreaseShapeRate">- Shape Rate</button>
+        <span id="currentRate">1 shape/s</span>
+        <button id="increaseShapeRate">+ Shape Rate</button>
+        <br>
+        <button id="decreaseGravity">- Gravity</button>
+        <span id="currentGravity">Gravity: 0.001</span>
+        <button id="increaseGravity">+ Gravity</button>
+    </div>
+   <script type="module" src="main.js"></script>
+</body>
+</html>
